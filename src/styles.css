@@ -1,0 +1,32 @@
+ /* Mobile  */
+
+
+ .outer-container {
+     height: 595px;
+     width: 295px;
+     position: absolute;
+     top: 50%;
+     right: 50%;
+     transform: translate(50%, -50%);
+     border-radius: 10px;
+     border: solid black;
+ }
+
+ .accordion-header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     cursor: pointer;
+     border: solid black;
+     border-radius: 10px;
+     height: 70px;
+ }
+
+ .accordion-header:hover {
+     background-color: blueviolet;
+ }
+
+ .accordion-main {
+     max-width: 600px;
+     margin: 2rem auto;
+ }
